@@ -1,0 +1,301 @@
+id,Nombre,Apellido,Edad,Genero,Ciudad,Es Socio
+1,Ramiro,Castelló,23,X,Mendoza,0
+2,Griselda,Almeida,26,F,La Plata,0
+3,Nidia,Recio,38,M,Córdoba,1
+4,Che,Batlle,44,M,Mendoza,0
+5,Teresa,Alegre,25,X,Mar del Plata,1
+6,Severo,Domingo,31,M,San Juan,0
+7,Dorita,Mesa,56,F,Córdoba,1
+8,Aurelia,Ródenas,35,F,Córdoba,0
+9,Baudelio,Almazán,38,F,Mendoza,0
+10,Joaquina,Feijoo,34,X,Bahía Blanca,0
+11,Nazaret,Criado,50,F,Rosario,1
+12,Javier,Reguera,36,X,Tigre,0
+13,Cándido,Duran,58,M,San Isidro,0
+14,Georgina,Miralles,44,F,Mar del Plata,0
+15,Telmo,Sevillano,26,F,La Plata,1
+16,Anunciación,Pombo,31,X,San Juan,1
+17,Hilario,Mateo,45,M,San Isidro,0
+18,Nacio,Melero,54,M,Tigre,1
+19,Claudio,Botella,28,X,Tigre,0
+20,Candelaria,Valenciano,42,F,Rosario,0
+21,Balduino,Guzmán,31,M,CABA,0
+22,Julie,Giner,53,F,Tigre,1
+23,Maricruz,Ruano,40,X,Tigre,1
+24,Marcio,Donaire,30,M,Mar del Plata,1
+25,Carmelo,Álvarez,59,M,Bahía Blanca,1
+26,Anselmo,Rubio,28,M,Rosario,1
+27,Ileana,Lobo,24,F,San Isidro,1
+28,Lara,Carrillo,26,X,Bahía Blanca,1
+29,Chus,Perea,55,F,Mar del Plata,0
+30,Rosendo,Seco,56,F,Rosario,0
+31,Encarna,Villanueva,34,X,Mendoza,0
+32,Domingo,Zabala,46,X,Córdoba,0
+33,Carolina,Herrero,54,M,La Plata,1
+34,Mireia,Benítez,35,F,Córdoba,1
+35,Nélida,Segovia,58,X,Mendoza,1
+36,Gala,Campo,21,F,CABA,1
+37,Ignacio,Daza,25,F,Córdoba,1
+38,Angélica,Mercader,53,F,Rosario,0
+39,Agustín,Pereira,34,X,Mar del Plata,0
+40,Leonardo,Pina,36,M,San Juan,1
+41,María Fernanda,Oliva,27,F,San Juan,0
+42,Bárbara,Giralt,48,M,Bahía Blanca,1
+43,Victoria,Mendez,27,F,San Juan,0
+44,Berto,Plaza,27,F,Mendoza,1
+45,Rico,Caballero,55,M,Mar del Plata,0
+46,Olalla,Moya,32,M,Bahía Blanca,1
+47,Gabino,Falcó,25,M,Tigre,1
+48,Nazaret,Roig,24,X,Tigre,1
+49,Armida,Vendrell,26,F,Mar del Plata,0
+50,Juan Bautista,Mur,52,M,Mendoza,0
+51,Bernardino,Canet,24,F,San Juan,1
+52,Felix,Segura,45,M,Bahía Blanca,0
+53,Ricarda,Moreno,48,X,Tigre,0
+54,Estrella,Espinosa,30,F,Rosario,1
+55,Sandra,Neira,24,X,Tigre,1
+56,Fortunato,Orozco,41,F,CABA,0
+57,Wálter,Lerma,53,X,Mar del Plata,1
+58,Manola,Martin,53,F,Mar del Plata,1
+59,Baltasar,Mesa,59,F,Mendoza,0
+60,Fidel,Galindo,28,X,Mendoza,1
+61,Martirio,Rosales,60,F,San Juan,0
+62,Perla,Briones,37,F,Córdoba,1
+63,Pablo,Ferrera,37,M,Mar del Plata,0
+64,Dimas,Álamo,50,M,La Plata,1
+65,Maxi,Riba,50,X,San Isidro,1
+66,Carla,Vicens,25,X,Mendoza,0
+67,Salomón,Piñeiro,29,M,La Plata,1
+68,Severo,Garcés,44,M,Mar del Plata,0
+69,Jacinta,Soler,55,X,Rosario,1
+70,Inés,Taboada,56,M,La Plata,1
+71,Carlota,Espejo,37,F,La Plata,1
+72,Maricruz,Goñi,38,M,San Isidro,1
+73,Águeda,Robles,42,F,Rosario,0
+74,Nayara,Bravo,37,F,La Plata,0
+75,Amaro,Clemente,38,F,CABA,0
+76,Albano,Vidal,29,X,Rosario,1
+77,Saturnino,Cantón,49,X,San Juan,1
+78,Adriana,Pelayo,28,F,Mar del Plata,1
+79,Lara,Alegre,44,X,Tigre,1
+80,Eloy,Morcillo,48,F,CABA,0
+81,Isidro,Rivas,44,F,Córdoba,1
+82,Lope,Pozuelo,36,X,La Plata,0
+83,Valentín,Oliveras,56,M,San Isidro,1
+84,Marcio,Vilar,36,F,Mar del Plata,0
+85,Azeneth,Barco,22,F,Córdoba,0
+86,Adolfo,Almagro,36,M,Mar del Plata,1
+87,Miguel Ángel,Osuna,45,F,Bahía Blanca,1
+88,Primitivo,Garay,33,M,Córdoba,0
+89,Tiburcio,Bustamante,35,F,CABA,1
+90,Bernardita,Alcolea,46,M,Rosario,1
+91,Salvador,Carro,38,M,Tigre,0
+92,Horacio,Estévez,55,M,CABA,1
+93,Jacinto,Palma,37,F,San Isidro,0
+94,Reinaldo,Roda,23,F,San Isidro,0
+95,Elpidio,Isern,43,X,Córdoba,0
+96,Trini,Blasco,59,X,La Plata,0
+97,Verónica,Juliá,57,F,Rosario,1
+98,Juan Carlos,Alvarez,48,F,Tigre,1
+99,Tadeo,Salamanca,44,M,La Plata,0
+100,Luis Ángel,Salvà,60,M,La Plata,0
+101,Lino,Andreu,53,M,San Juan,0
+102,Encarnación,Acosta,46,X,Rosario,1
+103,Nazaret,Baeza,33,M,San Juan,1
+104,Blanca,Bertrán,60,X,Rosario,0
+105,Sara,Aramburu,56,F,Rosario,0
+106,Francisco Javier,Urrutia,34,M,San Isidro,0
+107,Lorenzo,Piña,50,M,Bahía Blanca,1
+108,Florina,Arjona,53,M,Mar del Plata,1
+109,Roberto,Cantón,39,X,San Isidro,0
+110,Cristóbal,Sacristán,26,F,Rosario,1
+111,Álvaro,Cerdán,33,F,CABA,1
+112,Guadalupe,Pereira,36,M,San Isidro,1
+113,Loreto,Llanos,50,M,San Isidro,1
+114,Manu,Valls,45,M,San Juan,1
+115,Maricruz,Guillen,30,X,CABA,1
+116,Natalia,Arcos,48,F,Mar del Plata,0
+117,María Del Carmen,Carballo,24,X,Mendoza,1
+118,Urbano,Nevado,50,F,Bahía Blanca,0
+119,Hilda,Catalá,49,X,Tigre,0
+120,Heraclio,Buendía,56,M,Mar del Plata,0
+121,Mamen,Garcés,49,M,Mendoza,0
+122,Alicia,Villalonga,54,M,Mendoza,0
+123,Alejo,Porras,49,F,Rosario,1
+124,Leocadio,Amaya,38,M,Córdoba,1
+125,Albino,Alegria,29,F,Mendoza,0
+126,Olalla,Gárate,30,X,Mendoza,1
+127,Emiliano,Marcos,47,M,Córdoba,0
+128,Remedios,Barbero,47,F,Mendoza,0
+129,Paola,Vilalta,45,X,CABA,0
+130,Nicolasa,Cisneros,51,F,Córdoba,0
+131,Chema,Cobos,45,M,Tigre,1
+132,Heliodoro,Nogueira,52,F,Rosario,0
+133,Saturnina,Tolosa,52,F,San Juan,0
+134,Ámbar,Morell,46,X,Mar del Plata,0
+135,Jordana,Blazquez,29,X,Tigre,1
+136,Porfirio,Vigil,46,X,San Isidro,1
+137,Macaria,Vilanova,26,X,San Juan,1
+138,César,Cardona,50,F,CABA,0
+139,Dorita,Garzón,45,M,Mendoza,0
+140,Concepción,Guitart,41,M,San Juan,0
+141,Juanita,Verdú,47,M,La Plata,0
+142,Casemiro,Ariza,22,X,Tigre,1
+143,Miguela,Higueras,43,F,La Plata,1
+144,Berto,Barroso,22,F,Mendoza,1
+145,Eligio,Valdés,60,F,Mendoza,1
+146,Isidro,Montalbán,51,X,La Plata,1
+147,Kike,Nieto,50,X,Rosario,0
+148,Jose Ignacio,Mercader,31,X,San Isidro,1
+149,Lidia,Carmona,31,M,La Plata,1
+150,Gabriela,Vargas,40,X,San Juan,0
+151,César,Batalla,33,F,San Isidro,1
+152,Anabel,Aguilera,27,X,Rosario,1
+153,Pilar,Amaya,57,F,Córdoba,0
+154,Plinio,Rivero,44,F,Tigre,0
+155,Vidal,Olivé,21,M,Bahía Blanca,1
+156,Marisa,Casals,48,M,Bahía Blanca,1
+157,Lola,Palmer,48,F,Tigre,0
+158,Galo,Pujol,60,X,Bahía Blanca,0
+159,Perlita,Azorin,48,X,San Isidro,0
+160,Andrea,Santamaria,41,F,La Plata,0
+161,David,Baena,49,F,Bahía Blanca,0
+162,Ale,Acevedo,42,F,Bahía Blanca,0
+163,Jerónimo,Granados,32,M,Mendoza,0
+164,Leopoldo,Casas,37,M,Rosario,0
+165,Blas,Salmerón,56,F,Tigre,1
+166,Rita,Acevedo,26,F,San Juan,0
+167,Maxi,Quero,56,F,Bahía Blanca,0
+168,Duilio,Maza,49,F,La Plata,0
+169,Teresita,Ariza,35,M,Mendoza,0
+170,Narciso,Tamayo,58,M,Bahía Blanca,0
+171,Arturo,Ruano,48,X,Tigre,0
+172,Nazario,Mínguez,43,X,Bahía Blanca,0
+173,Otilia,Múñiz,40,M,Mendoza,1
+174,Alex,Amor,33,M,La Plata,1
+175,Raúl,Azorin,33,F,Bahía Blanca,0
+176,Reynaldo,Alberdi,58,X,San Isidro,0
+177,Carmina,Canet,27,F,Rosario,1
+178,Daniela,Martinez,44,F,Rosario,1
+179,Petrona,Rueda,55,F,Rosario,1
+180,Héctor,Revilla,24,X,Rosario,1
+181,Guiomar,Hoyos,52,F,CABA,0
+182,Javier,Arteaga,51,M,Bahía Blanca,0
+183,Casandra,Corral,32,F,Rosario,0
+184,Anastasio,Criado,28,F,San Juan,0
+185,Rebeca,Pozuelo,25,X,CABA,1
+186,Quirino,Roura,30,X,Rosario,1
+187,Héctor,Manso,36,F,Tigre,0
+188,Baltasar,Carmona,59,X,San Isidro,1
+189,Ema,Maldonado,54,M,Bahía Blanca,0
+190,Pedro,Barrios,40,X,San Juan,0
+191,Leticia,Cabañas,57,X,CABA,1
+192,Ámbar,Osuna,34,X,Mendoza,0
+193,Modesto,Fiol,26,F,Mendoza,1
+194,Esther,Costa,56,F,Mar del Plata,1
+195,Zaida,Nogueira,47,M,San Isidro,0
+196,Benita,Lobo,39,F,Mendoza,0
+197,Leonor,Guitart,39,X,Bahía Blanca,1
+198,Óscar,Anguita,35,M,San Isidro,1
+199,Emilia,Herrera,48,F,Tigre,1
+200,Custodia,Nogués,30,M,Mar del Plata,1
+201,Araceli,Mendoza,24,F,Rosario,0
+202,Julia,Araujo,49,F,Bahía Blanca,0
+203,Heriberto,Cifuentes,46,M,Tigre,0
+204,Juan Francisco,Luís,49,F,San Isidro,1
+205,Demetrio,Urrutia,48,X,Córdoba,0
+206,Adela,Casares,22,F,Mendoza,1
+207,Claudio,Guardiola,38,X,CABA,1
+208,Juan Bautista,Ferrero,51,X,Bahía Blanca,0
+209,Benigno,Sandoval,32,X,San Juan,0
+210,Yago,Fábregas,26,M,Córdoba,0
+211,Yéssica,Barrio,42,M,La Plata,1
+212,Gisela,Esteban,42,M,Bahía Blanca,0
+213,María José,Vigil,46,X,CABA,0
+214,Vanesa,Millán,26,M,Rosario,0
+215,Mauricio,Benavides,28,M,Tigre,1
+216,Maximino,Rico,55,M,San Juan,1
+217,Fortunato,Barreda,33,X,Córdoba,0
+218,Basilio,Hidalgo,49,F,Mendoza,0
+219,Jose Carlos,Abascal,56,F,Rosario,0
+220,Lidia,Lopez,52,F,CABA,1
+221,Felicidad,Plana,31,M,Tigre,1
+222,Cruz,Cuervo,56,M,La Plata,1
+223,Ascensión,Zaragoza,28,M,La Plata,1
+224,Nicodemo,Perelló,52,X,Rosario,0
+225,Carlito,Heredia,47,M,Bahía Blanca,1
+226,Benigna,Bravo,50,X,Mar del Plata,0
+227,Ana Sofía,Reig,33,X,Tigre,1
+228,Adelina,España,25,M,San Juan,0
+229,Anna,Solana,53,M,CABA,0
+230,Juan Bautista,Reina,40,X,San Isidro,0
+231,Mireia,Nevado,30,M,Tigre,0
+232,Francisco,Cárdenas,43,M,Tigre,0
+233,Marcial,Sureda,50,M,Mendoza,1
+234,Filomena,Canet,57,M,Mendoza,0
+235,Marino,Baena,23,M,Bahía Blanca,0
+236,Jose Ramón,Fonseca,45,X,Mar del Plata,0
+237,Manu,Rubio,23,F,Tigre,0
+238,Lope,Barriga,27,M,La Plata,0
+239,Clara,Alba,21,X,Mar del Plata,0
+240,Nico,Bárcena,30,F,Bahía Blanca,0
+241,Victor Manuel,Pareja,42,X,San Juan,1
+242,Azeneth,Garrido,42,X,Tigre,0
+243,Faustino,Contreras,41,X,Bahía Blanca,1
+244,Pilar,Mayo,60,F,Mendoza,0
+245,Bruno,Valls,35,X,La Plata,0
+246,Cesar,Verdú,27,X,La Plata,0
+247,Leonel,Morata,31,X,Rosario,1
+248,Zoraida,Burgos,23,M,CABA,0
+249,Elodia,Aguiló,43,M,San Juan,1
+250,Sabas,Cabrero,36,X,San Juan,1
+251,Gerónimo,Estevez,31,F,La Plata,0
+252,Jose,Velázquez,60,X,Mendoza,0
+253,Edelmira,Palmer,58,F,Mendoza,0
+254,Juan Pablo,Araujo,37,M,Rosario,1
+255,Maristela,Luís,50,M,Tigre,1
+256,Aníbal,Bartolomé,25,M,Córdoba,0
+257,Xiomara,Aguilar,48,X,Rosario,0
+258,Jose Carlos,Roman,40,F,San Juan,0
+259,Jose Luis,Jimenez,27,F,San Juan,0
+260,Nazaret,Cruz,57,M,Rosario,1
+261,Azahar,Cuervo,46,M,CABA,1
+262,Ambrosio,Soler,59,X,Bahía Blanca,0
+263,Magdalena,Anglada,35,X,Córdoba,1
+264,Ruth,Duran,33,X,Rosario,1
+265,Ana Belén,Silva,27,X,CABA,0
+266,Liliana,Daza,49,F,San Isidro,0
+267,Adoración,Figuerola,29,F,Rosario,0
+268,Ángela,Navarrete,47,F,Mendoza,1
+269,Juanito,Alemán,55,M,Tigre,0
+270,Socorro,Monreal,31,M,Bahía Blanca,0
+271,Benito,Toledo,42,F,Bahía Blanca,1
+272,Marisela,Benet,30,F,San Juan,0
+273,Gil,Oliveras,26,M,CABA,0
+274,Inocencio,Aguilar,55,F,Bahía Blanca,0
+275,Aarón,Armas,37,X,San Juan,0
+276,Segismundo,Reig,27,X,Mendoza,0
+277,José,Salazar,22,X,Tigre,0
+278,Florencio,Valdés,60,F,La Plata,0
+279,Jordán,Padilla,40,X,San Juan,1
+280,Trini,Botella,29,F,CABA,0
+281,Fabiola,Lladó,52,F,La Plata,1
+282,Reyna,Rosselló,55,F,San Juan,0
+283,Eva,Asensio,44,X,Tigre,0
+284,Candelaria,Carvajal,58,X,Mar del Plata,0
+285,Samanta,Carrillo,27,M,San Isidro,0
+286,Ruperta,Sabater,38,F,Córdoba,1
+287,Severo,Gras,49,M,Mendoza,0
+288,Tamara,Mateo,27,X,Córdoba,0
+289,Graciana,Lozano,24,M,Rosario,1
+290,Hugo,Caballero,28,M,La Plata,1
+291,Gonzalo,Cerro,59,F,CABA,0
+292,Domitila,Cuesta,36,F,San Isidro,1
+293,Fidel,Peralta,25,X,Mendoza,1
+294,Juan José,Caro,35,M,Mar del Plata,1
+295,Obdulia,Abascal,38,F,Mar del Plata,0
+296,Griselda,Ortega,32,F,CABA,1
+297,Paola,Martinez,21,M,Mendoza,0
+298,Samuel,Hurtado,22,F,Rosario,1
+299,Angélica,Sotelo,29,X,San Juan,1
+300,Demetrio,Salmerón,25,M,Bahía Blanca,0

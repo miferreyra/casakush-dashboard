@@ -1,0 +1,154 @@
+-- ============================================
+-- CASA KUSH - SCRIPT COMPLETO DE SETUP
+-- ============================================
+-- Este script crea la base de datos completa desde cero
+-- Usar después de importar los CSVs con "Importar archivo plano"
+-- ============================================
+
+-- PASO 1: Crear la base de datos
+CREATE DATABASE CasaKush;
+GO
+
+USE CasaKush;
+GO
+
+-- ============================================
+-- PASO 2: IMPORTAR LOS 5 CSVs
+-- ============================================
+-- Usar "Importar archivo plano" en SQL Server Management Studio
+-- para cada uno de estos archivos:
+-- 1. Clientes.csv
+-- 2. Productos.csv  
+-- 3. Sucursales.csv
+-- 4. Visitas.csv
+-- 5. DetalleVisita.csv
+-- ============================================
+
+-- PASO 3: Renombrar las tablas (si se importaron con .csv en el nombre)
+EXEC sp_rename '[Clientes.csv]', 'clientes';
+EXEC sp_rename '[Productos.csv]', 'productos';
+EXEC sp_rename '[Sucursales.csv]', 'sucursales';
+EXEC sp_rename '[Visitas.csv]', 'visitas';
+EXEC sp_rename '[DetalleVisita.csv]', 'detalle_visitas';
+GO
+
+-- PASO 4: Verificar que se importaron los datos
+SELECT 'clientes' as tabla, COUNT(*) as registros FROM clientes
+UNION ALL
+SELECT 'visitas', COUNT(*) FROM visitas
+UNION ALL
+SELECT 'productos', COUNT(*) FROM productos
+UNION ALL
+SELECT 'sucursales', COUNT(*) FROM sucursales
+UNION ALL
+SELECT 'detalle_visitas', COUNT(*) FROM detalle_visitas;
+GO
+
+-- Resultado esperado:
+-- clientes: 300
+-- visitas: 1000
+-- productos: 41
+-- sucursales: 5
+-- detalle_visitas: 2482
+
+-- ============================================
+-- PASO 5: Agregar Primary Keys
+-- ============================================
+
+ALTER TABLE clientes
+ADD CONSTRAINT PK_clientes PRIMARY KEY (id);
+
+ALTER TABLE sucursales
+ADD CONSTRAINT PK_sucursales PRIMARY KEY (id);
+
+ALTER TABLE productos
+ADD CONSTRAINT PK_productos PRIMARY KEY (id);
+
+ALTER TABLE visitas
+ADD CONSTRAINT PK_visitas PRIMARY KEY (id);
+
+ALTER TABLE detalle_visitas
+ADD CONSTRAINT PK_detalle_visitas PRIMARY KEY (id);
+GO
+
+-- ============================================
+-- PASO 6: Agregar Foreign Keys
+-- ============================================
+
+-- visitas.cliente_id → clientes.id
+ALTER TABLE visitas
+ADD CONSTRAINT FK_visitas_clientes 
+FOREIGN KEY (cliente_id) REFERENCES clientes(id);
+
+-- visitas.sucursal_id → sucursales.id
+ALTER TABLE visitas
+ADD CONSTRAINT FK_visitas_sucursales 
+FOREIGN KEY (sucursal_id) REFERENCES sucursales(id);
+
+-- detalle_visitas.visita_id → visitas.id
+ALTER TABLE detalle_visitas
+ADD CONSTRAINT FK_detalle_visitas_visitas 
+FOREIGN KEY (visita_id) REFERENCES visitas(id);
+
+-- detalle_visitas.producto_id → productos.id
+ALTER TABLE detalle_visitas
+ADD CONSTRAINT FK_detalle_visitas_productos 
+FOREIGN KEY (producto_id) REFERENCES productos(id);
+GO
+
+-- ============================================
+-- CONSULTAS DE ANÁLISIS
+-- ============================================
+
+-- Total de ventas por sucursal
+SELECT S.nombre, SUM(DV.precio_final) AS total_ventas
+FROM visitas V
+JOIN sucursales S ON V.sucursal_id = S.id
+JOIN detalle_visitas DV ON DV.visita_id = V.id
+GROUP BY S.nombre
+ORDER BY total_ventas DESC;
+
+-- Productos más vendidos
+SELECT P.nombre, COUNT(*) AS veces_vendido, SUM(DV.precio_final) AS total_facturado
+FROM detalle_visitas DV
+JOIN productos P ON P.id = DV.producto_id
+GROUP BY P.nombre
+ORDER BY veces_vendido DESC;
+
+-- Evolución mensual de ventas
+SELECT 
+    MONTH(V.fecha) AS mes,
+    COUNT(V.id) AS visitas,
+    SUM(DV.precio_final) AS facturación,
+    AVG(DV.precio_final) AS ticket_promedio
+FROM visitas V
+JOIN detalle_visitas DV ON DV.visita_id = V.id
+GROUP BY MONTH(V.fecha)
+ORDER BY mes;
+
+-- Top 10 clientes más frecuentes
+SELECT TOP 10
+    C.nombre,
+    C.apellido,
+    COUNT(V.id) AS visitas,
+    SUM(DV.precio_final) AS gasto_total,
+    AVG(DV.precio_final) AS gasto_promedio_por_visita
+FROM clientes C
+JOIN visitas V ON V.cliente_id = C.id
+JOIN detalle_visitas DV ON DV.visita_id = V.id
+GROUP BY C.nombre, C.apellido
+ORDER BY visitas DESC;
+
+-- ============================================
+-- VERIFICACIÓN FINAL
+-- ============================================
+
+-- Ver todas las tablas
+SELECT TABLE_NAME 
+FROM INFORMATION_SCHEMA.TABLES 
+WHERE TABLE_TYPE = 'BASE TABLE'
+ORDER BY TABLE_NAME;
+
+-- ============================================
+-- ¡LISTO! Base de datos Casa Kush configurada
+-- ============================================
